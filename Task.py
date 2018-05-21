@@ -47,8 +47,5 @@ class Task:
         for task in self.subTasks:
             taskStr += task.toString()
         taskStr += "}"
-        return taskStr
-    
-if __name__=='__main__':
-    help(Task)
+        return taskStr1
     
