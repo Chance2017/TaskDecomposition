@@ -47,5 +47,5 @@ class Task:
         for task in self.subTasks:
             taskStr += task.toString()
         taskStr += "}"
-        return taskStr1
+        return taskStr
     
